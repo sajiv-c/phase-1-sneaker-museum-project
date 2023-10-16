@@ -1,0 +1,29 @@
+{
+  "project_items": [
+    {
+      "id": 1,
+      "name": "Project Item 1",
+      "price": 10
+    },
+    {
+      "id": 2,
+      "name": "Project Item 2",
+      "price": 20
+    },
+    {
+      "id": 3,
+      "name": "Project Item 3",
+      "price": 30
+    },
+    {
+      "id": 4,
+      "name": "Project Item 4",
+      "price": 40
+    },
+    {
+      "id": 5,
+      "name": "Project Item 5",
+      "price": 50
+    }
+  ]
+}
