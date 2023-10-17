@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Your Sneaker Shop</title>
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Gothic&display=swap" rel="stylesheet">
         <script defer src = "index.js"></script>
     </head>
     <body>
-        <h1>Welcome to the Phase 1 Project!</h1>
-        <br>
-        <h2>Here are the Project Items</h2>
-        <ul id="item-list"></ul>
+        <div id="top">
+            <img class="logo" src="Images/Modern_Minimalist_Graffiti_Dream_Brand_Logo.png" alt="Sneaker Logo" />
+        </div>
+        <hr />
+        <nav id="sneaker-list">
+            <!-- Add sneaker images as needed -->
+        </nav>
+    
+        <div id="sneaker-display">
+            <img id="detail-image" src="" alt="Sneaker Image" />
+            <div id="details">
+                <h1 id="name">Sneaker Name:</h1>
+                <h3 id="brand">Brand:</h3>
+                <h3 id="year-released">Release Year:</h3>
+                <h3 id="og-colorway">Original Colorway:</h3>
+                <h3 id="creative-director">Creative Director:</h3>
+                <h3 id="retail">Original Price:</h3>
+                <h3 id="resale">Current Value:</h3>
+                <p id="description">
+                    Description of the sneaker goes here.
+                </p>
+            </div>
+        </div>
+        <div id="sneaker-comments">
+            <div id="comments">
+                <h2>Comments</h2>
+                <div class="comment">
+                    <p>User Comment 1</p>
+                    <button class="delete-comment">Delete</button>
+                </div>
+                <div class="comment">
+                    <p>User Comment 2</p>
+                    <button class="delete-comment">Delete</button>
+                </div>
+                <!-- Add more comments as needed -->
+    
+                <form id="comment-form">
+                    <label for="user-comment">Add a Comment</label>
+                    <input id="user-comment" type="text" placeholder="Your comment..." />
+                    <input type="submit" value="Add Comment"></button>
+                </form>
+            </div>
+        </div>
     </body>
 </html>

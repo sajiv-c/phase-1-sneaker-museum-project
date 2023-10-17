@@ -1,0 +1,197 @@
+body {
+    background-color: #2b2b2b;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#right-side {
+    margin-left: auto;
+}
+
+.icon {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    filter: drop-shadow(0 0 5px #ff4a6d);
+}
+
+#amount {
+    font-size: 30px;
+    color: #ff4a6d;
+}
+
+.logo {
+    height: 300px;
+    width: auto;
+    /* filter: drop-shadow(0 0 10px #ff4a6d); */
+}
+
+#sneaker-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#sneaker-list a {
+    text-decoration: none;
+    color: #ff4a6d;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+#sneaker-list img:hover {
+    text-decoration: underline;
+    color: #ffecb8;
+}
+
+#detail-image {
+    /* height: auto; */
+    margin: 7px;
+    filter: drop-shadow(0 0 1em #ff4a6d);
+    border: 2px solid #ffecb8;
+    border-radius: 10px;
+    /* max-width: 600px; */
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+#sneaker-display > div {
+    width: 60%;
+    margin-left: 20px;
+}
+
+#sneaker-comments > div {
+    width: 60%;
+    margin-left: 20px;
+}
+
+#sneaker-display p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: justify;
+    /*padding-left: 120px;*/
+    padding-right: 120px;
+}
+
+#sneaker-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#sneaker-comments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#comments {
+    margin-top: 20px;
+    padding: 20px;
+    background: #444;
+    border-radius: 10px;
+}
+
+.comment {
+    background: #555;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+form {
+    width: 200px;
+    margin-top: 20px;
+}
+
+button {
+    border: 0;
+    width: 100%;
+    color: #fff;
+    background: #ff4a6d;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ffecb8;
+    color: #2d2d2d;
+}
+
+input[type="text"] {
+    display: block;
+    border: 0;
+    width: 100%;
+    color: #2d2d2d;
+    background: #ffecb8;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    display: block;
+    border: 0;
+    width: 100%;
+    color: #fff;
+    background: #ff4a6d;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #ffecb8;
+    color: #2d2d2d;
+}
+
+nav img {
+    /* height: auto;
+    max-width: 6%; */
+    max-height: 80px;
+    object-fit: contain;
+}
+
+/* #detail-image {
+    max-width: 600px;
+    height: auto;
+    padding-left: 80px;
+} */
+
+#details {
+    text-align: left;
+    padding-left: 80px;
+}
+
+/* .logo {
+    height: 300px;
+    width: auto;
+} */
+
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
