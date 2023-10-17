@@ -57,3 +57,64 @@ function addToDisplay(shoe) {
     displayResale.textContent = `$${shoe.resell_price}`;
     displayDescrip.textContent = shoe.description;
 }
+
+const commentForm = document.getElementById('comment-form');
+const commentInput = document.getElementById('user-comment');
+const commentElements = document.getElementById('comment-elements')
+commentForm.addEventListener('submit', (e) => {
+    e.preventDefault()
+
+    const newCommentDiv = document.createElement('div');
+    newCommentDiv.className = 'comment';
+
+    const newCommentP = document.createElement('p');
+    newCommentP.textContent = commentInput.value;
+
+    const deleteBtn = document.createElement('button');
+    deleteBtn.className = 'delete-comment';
+    deleteBtn.textContent = 'Delete';
+
+    newCommentDiv.appendChild(newCommentP);
+    newCommentDiv.appendChild(deleteBtn);
+
+    //console.log(newCommentDiv);
+
+    commentElements.appendChild(newCommentDiv);
+
+    commentInput.value = "";
+
+    const deleteBtns = document.querySelectorAll('.delete-comment');
+    deleteBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault()
+    
+            const parentDiv = btn.parentNode;
+    
+            console.log(parentDiv);
+    
+            parentDiv.remove();
+    })
+})
+})
+
+// const deleteBtn = document.querySelectorAll('.delete-comment');
+// deleteBtn.forEach(btn => {
+//     btn.addEventListener('click', (e) => {
+//         e.preventDefault()
+    
+//         const parentDiv = btn.parentNode;
+    
+//         console.log(parentDiv);
+    
+//         parentDiv.remove();
+//     })
+// })
+// deleteBtn.addEventListener('click', (e) => {
+//     e.preventDefault()
+
+//     const parentDiv = deleteBtn.parentNode;
+
+//     console.log(parentDiv);
+
+//     parentDiv.remove();
+// })

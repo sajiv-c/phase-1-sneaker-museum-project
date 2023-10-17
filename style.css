@@ -73,7 +73,7 @@ body {
     line-height: 1.4;
     text-align: justify;
     /*padding-left: 120px;*/
-    padding-right: 120px;
+    padding-right: 100px;
 }
 
 #sneaker-display-categories {
@@ -213,5 +213,5 @@ nav img {
 
 .inputs {
     text-align: end;
-    padding-right: 120px;
+    padding-right: 100px;
 }
