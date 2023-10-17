@@ -57,7 +57,7 @@ body {
     margin-left: 50px;
 }
 
-#sneaker-display > div {
+#sneaker-display-categories > div {
     width: 60%;
     margin-left: 20px;
 }
@@ -67,7 +67,7 @@ body {
     margin-left: 20px;
 }
 
-#sneaker-display p {
+#sneaker-display-categories p {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 18px;
     line-height: 1.4;
@@ -76,7 +76,7 @@ body {
     padding-right: 120px;
 }
 
-#sneaker-display {
+#sneaker-display-categories {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,4 +194,24 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#sneaker-list img {
+    border: 2px solid #ff4a6d;
+}
+
+#name {
+    text-align: center;
+    padding-right: 10%;
+    font-size: xx-large;
+}
+
+#detail-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.inputs {
+    text-align: end;
+    padding-right: 120px;
 }
