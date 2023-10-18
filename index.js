@@ -6,6 +6,8 @@ fetch("http://localhost:3000/sneakers")
         addToList(shoe);
     })
     addToDisplay(shoes[0]);
+    document.querySelector('.comment-1 p').textContent = shoes[0].comments[0];
+    document.querySelector('.comment-2 p').textContent = shoes[0].comments[1];
 })
 
 function addToList(shoe) {
@@ -16,16 +18,20 @@ function addToList(shoe) {
 
     newShoe.addEventListener('click', () => {
         addToDisplay(shoe);
+        document.querySelector('.comment-1 p').textContent = shoe.comments[0];
+        document.querySelector('.comment-2 p').textContent = shoe.comments[1];
     })
 
     newShoe.addEventListener('mouseover', () => {
         newShoe.style.filter = 'drop-shadow(0 0 1em #ff4a6d)';
         newShoe.style.border = '2px solid #ffecb8'
+        newShoe.src = shoe.menu_gif;
     })
 
     newShoe.addEventListener('mouseleave', () => {
         newShoe.style.filter = '';
         newShoe.style.border = '2px solid #ff4a6d'
+        newShoe.src = shoe.menu_image;
     })
 
 }
@@ -84,6 +90,22 @@ commentForm.addEventListener('submit', (e) => {
     commentInput.value = "";
 
     const deleteBtns = document.querySelectorAll('.delete-comment');
+    console.log(deleteBtns);
+    deleteBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault()
+    
+            const parentDiv = btn.parentNode;
+    
+            console.log(parentDiv);
+    
+            parentDiv.remove();
+        })
+    })
+})
+
+const deleteBtns = document.querySelectorAll('.delete-comment');
+    console.log(deleteBtns);
     deleteBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
             e.preventDefault()
@@ -94,7 +116,6 @@ commentForm.addEventListener('submit', (e) => {
     
             parentDiv.remove();
     })
-})
 })
 
 // const deleteBtn = document.querySelectorAll('.delete-comment');

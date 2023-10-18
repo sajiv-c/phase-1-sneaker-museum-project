@@ -5,156 +5,216 @@
       "name": "Air Force 1",
       "menu_image": "https://cdn.flightclub.com/1250/TEMPLATE/020824/1.jpg",
       "display_image": "https://staticg.sportskeeda.com/editor/2023/03/c3535-16801075886661-1920.jpg",
+      "menu_gif": "https://media4.giphy.com/media/2ipOoFGvxkuSHWo3J8/giphy.gif?cid=ecf05e470m50vbtf98jkq95602kq7r782yfpidec1xlim0z2&ep=v1_gifs_related&rid=giphy.gif&ct=g",
       "brand": "Nike",
       "og_colorway": "White/White",
       "creative_director": "Bruce Kilgore",
       "release_year": "1982",
       "retail_price": 60,
       "resell_price": 100,
-      "description": "In 1982, the Nike Air Force 1 emerged as a game-changer, captivating both sneaker enthusiasts and basketball stars. Its debut saw endorsements from the 'Original Six', prominent NBA players of the era. Designed by Bruce Kilgore, the Air Force 1 not only marked his basketball shoe debut but also became the first to introduce Nike Air cushioning to the court, revolutionizing performance."
+      "description": "In 1982, the Nike Air Force 1 emerged as a game-changer, captivating both sneaker enthusiasts and basketball stars. Its debut saw endorsements from the 'Original Six', prominent NBA players of the era. Designed by Bruce Kilgore, the Air Force 1 not only marked his basketball shoe debut but also became the first to introduce Nike Air cushioning to the court, revolutionizing performance.",
+      "comments": [
+        "Air Force 1s rock!",
+        "I love the all white colorway!"
+      ]
     },
     {
       "id": 2,
       "name": "Air Max 95",
       "menu_image": "https://i.ebayimg.com/images/g/KXQAAOSw4dZkAol6/s-l1600.png",
       "display_image": "https://pbs.twimg.com/media/DklxUwwXcAMWTLT.jpg",
+      "menu_gif": "https://i.gifer.com/IYI6.gif",
       "brand": "Nike",
       "og_colorway": "Black/Neon Yellow/Light Graphite (aka 'OG Neon')",
       "creative_director": "Sergio Lazano",
       "release_year": "1995",
       "retail_price": 140,
       "resell_price": 180,
-      "description": "With its unique colorway, Swoosh placement, and dual air-powered cushioning system, the unapologetically brash Air Max 95 quickly progressed into a youth culture icon. This was especially so throughout Europe and Australia. A smaller following in America includes much of the hip-hop community, with artists like Gucci Mane and Danny Brown having dropped bars about the sneaker."
+      "description": "With its unique colorway, Swoosh placement, and dual air-powered cushioning system, the unapologetically brash Air Max 95 quickly progressed into a youth culture icon. This was especially so throughout Europe and Australia. A smaller following in America includes much of the hip-hop community, with artists like Gucci Mane and Danny Brown having dropped bars about the sneaker.",
+      "comments": [
+        "Air Max 95s rock!",
+        "I love the Neon colorway!"
+      ]
     },
     {
       "id": 3,
-      "name": "Lebron 9",
+      "name": "LeBron 9",
       "menu_image": "https://lh5.googleusercontent.com/-lBr-Jy3QXWk/ThaUW30Pr2I/AAAAAAACtqo/YEciD5lHIcA/s600/nike-lebron-9-gr-black-white-red-2-01.jpg",
       "display_image": "https://cdn.weartesters.com/wp-content/uploads/2012/04/Nike-LeBron-9-Elite-P.S.-Performance-Review-7.jpg",
+      "menu_gif": "https://media4.giphy.com/media/GS2HlaP8SzW0g/giphy.gif?cid=ecf05e47g3msa4n4st1kf5elde8s6eji53ig7iias1sm1ed7&ep=v1_gifs_search&rid=giphy.gif&ct=g",
       "brand": "Nike",
       "og_colorway": "Black/White/Red (aka 'Miami Heat Away')",
       "creative_director": "Jason Petrie",
       "release_year": "2012",
       "retail_price": 170,
       "resell_price": 230,
-      "description": "The LeBron 9 is known as the first Nike sneaker to feature both Hyperfuse and Flyknit technologies — along with its primary visible Max Air and Zoom Air tech. It's also the model we saw King James lead the Miami Heat to the NBA Finals & win his first NBA Championship."
+      "description": "The LeBron 9 is known as the first Nike sneaker to feature both Hyperfuse and Flyknit technologies — along with its primary visible Max Air and Zoom Air tech. It's also the model we saw King James lead the Miami Heat to the NBA Finals & win his first NBA Championship.",
+      "comments": [
+        "LeBron 9s rock!",
+        "I love the black and red colorway!"
+      ]
     },
     {
       "id": 4,
-      "name": "KD 5",
+      "name": "KD V",
       "menu_image": "https://www.rif.la/cdn/shop/products/554988-048_1296x.jpg?v=1675301400",
       "display_image": "https://sneakernews.com/wp-content/uploads/2013/02/nike-kd-v-ice-blue-release-reminder-2.jpg",
+      "menu_gif": "https://media3.giphy.com/media/h9jgMfjRK6rYRVCo8R/200w.webp?cid=ecf05e47ghzaozovd8s5x80o8cfnj52af74lnqtw38xuz0h2&ep=v1_gifs_search&rid=200w.webp&ct=g",
       "brand": "Nike",
       "og_colorway": "Black/Team Orange/Photo Blue (aka 'Thunder Away')",
       "creative_director": "Leo Chang",
       "release_year": "2012",
       "retail_price": 115,
       "resell_price": 350,
-      "description": "The KD V was the first high-top iteration of Kevin Durant's signature line. The first four styles of KD shoes all had “Zoom” in the title, but by this point, Nike was confident that Durant's name spoke for itself and dropped the moniker. It was also the first time a sub-line called Elite was introduced, which added additional technical updates to the shoe in the postseason."
+      "description": "The KD V was the first high-top iteration of Kevin Durant's signature line. The first four styles of KD shoes all had “Zoom” in the title, but by this point, Nike was confident that Durant's name spoke for itself and dropped the moniker. It was also the first time a sub-line called Elite was introduced, which added additional technical updates to the shoe in the postseason.",
+      "comments": [
+        "KD 5s rock!",
+        "I love the OKC colorway!"
+      ]
     },
     {
       "id": 5,
       "name": "Air Jordan 1",
       "menu_image": "https://hyped.eu/media/3d/fc/17/1668848316/DZ5485-612-jordan-1-retro-high-0g-lost-and-found-sideview-right.jpg?width=3000",
       "display_image": "https://i.pinimg.com/1200x/4a/85/e2/4a85e28444a4b22704839e3f7b956352.jpg",
+      "menu_gif": "https://media0.giphy.com/media/WNzdpwzusqLM1wb1gA/200.webp?cid=ecf05e47fc8z0876a6i5wtqn7a6hn54xj3gwm80hxmy0xxjn&ep=v1_gifs_search&rid=200.webp&ct=g",
       "brand": "Jordan",
       "og_colorway": "White/Black/Red (aka 'Chicago')",
       "creative_director": "Tinker Hatfield",
       "release_year": "1985",
       "retail_price": 65,
       "resell_price": 1500,
-      "description": "Released in 1985, the Air Jordan 1 quickly took the world by storm with the same brazen charisma as Michael Jordan himself. The first shoe to ever be worn in the NBA with multiple colourways, the OG black and red was originally banned for violating the league's kit policy, and was threatened with a $5,000 fine every game it was worn. The OG's legacy lives on through the Air Jordan 1 Retro, honoring a legend that expanded the game's creative potential and redefined basketball's connection to style and culture."
+      "description": "Released in 1985, the Air Jordan 1 quickly took the world by storm with the same brazen charisma as Michael Jordan himself. The first shoe to ever be worn in the NBA with multiple colourways, the OG black and red was originally banned for violating the league's kit policy, and was threatened with a $5,000 fine every game it was worn. The OG's legacy lives on through the Air Jordan 1 Retro, honoring a legend that expanded the game's creative potential and redefined basketball's connection to style and culture.",
+      "comments": [
+        "AJ1s rock!",
+        "I love the Chicago colorway!"
+      ]
     },
     {
       "id": 6,
       "name": "Air Jordan 4",
       "menu_image": "https://cdn.flightclub.com/2200/TEMPLATE/010026/1.jpg",
       "display_image": "https://www.nicekicks.com/files/2022/10/air-jordan-4-1989.jpg",
+      "menu_gif": "https://media3.giphy.com/media/fQYxPwJ9JuXjclAogN/giphy.gif?cid=ecf05e47nephx9yuauc5u40opjv77voyyifmary5e116neo4&ep=v1_gifs_search&rid=giphy.gif&ct=g",
       "brand": "Jordan",
       "og_colorway": "White/Fire Red/Black/Tech Gray (aka 'White Cement')",
       "creative_director": "Tinker Hatfield",
       "release_year": "1989",
       "retail_price": 110,
       "resell_price": 550,
-      "description": "In 1989, the Air Jordan 4, the second Jordan model from legendary Nike designer Tinker Hatfield, debuted in 4 OG colorways. Combining striking aesthetics with unique performance-enhancing features, Jordan 4s stood out for their triangular support wings and breathable over-molded mesh paneling. The eye-catching design rocketed to instant popularity, bolstered by standout moments on and off the court. His Airness famously hit “The Shot” over Craig Ehlo sporting Jordan 4s, and the shoe makes a memorable appearance in Spike Lee's seminal 1989 film Do the Right Thing."
+      "description": "In 1989, the Air Jordan 4, the second Jordan model from legendary Nike designer Tinker Hatfield, debuted in 4 OG colorways. Combining striking aesthetics with unique performance-enhancing features, Jordan 4s stood out for their triangular support wings and breathable over-molded mesh paneling. The eye-catching design rocketed to instant popularity, bolstered by standout moments on and off the court. His Airness famously hit “The Shot” over Craig Ehlo sporting Jordan 4s, and the shoe makes a memorable appearance in Spike Lee's seminal 1989 film Do the Right Thing.",
+      "comments": [
+        "AJ4s rock!",
+        "I love the White Cement colorway!"
+      ]
     },
     {
       "id": 7,
       "name": "Air Jordan 5",
       "menu_image": "https://i.ebayimg.com/images/g/sQMAAOSwRephrmid/s-l640.png",
       "display_image": "https://i.pinimg.com/736x/b2/e1/a2/b2e1a22d5255bc619e9b146e5dcece6b.jpg",
+      "menu_gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTE5azNuY2p1NnB0anZ0N3I3Z25odmN6N3VpNHJ4MnR6YWJuZml2MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f6zPlLMBdrqvEpZ78a/giphy.gif",
       "brand": "Jordan",
       "og_colorway": "Black/Fire Red/Metallic Silver/White (aka 'Black Metallic')",
       "creative_director": "Tinker Hatfield",
       "release_year": "1990",
       "retail_price": 125,
       "resell_price": 525,
-      "description": "Introduced to the world by Spike Lee's iconic character Mars Blackmon, the AJ5 was released in 1990. Nike designer Tinker Hatfield took inspiration from Jordan's biting style, and likening it to an American WWll fighter plane, he designed the Air Jordan 5 with shark-tooth shapes on the midsole, paired with a clear outside. The shoe captured a ferocity truly reminiscent of its relentless muse who was fighting his way to the top of his game."
+      "description": "Introduced to the world by Spike Lee's iconic character Mars Blackmon, the AJ5 was released in 1990. Nike designer Tinker Hatfield took inspiration from Jordan's biting style, and likening it to an American WWll fighter plane, he designed the Air Jordan 5 with shark-tooth shapes on the midsole, paired with a clear outside. The shoe captured a ferocity truly reminiscent of its relentless muse who was fighting his way to the top of his game.",
+      "comments": [
+        "AJ5s shoe rock!",
+        "I love the Grape colorway!"
+      ]
     },
     {
       "id": 8,
       "name": "Air Jordan 11",
       "menu_image": "https://cdn.flightclub.com/1000/TEMPLATE/805882/1.jpg",
       "display_image": "https://i.pinimg.com/originals/ee/ef/dc/eeefdc3a28a76fcddcbec3294b968df8.jpg",
+      "menu_gif": "https://daserge22.files.wordpress.com/2011/12/jordan111.gif",
       "brand": "Jordan",
       "og_colorway": "White/Black/Dark Concord (aka 'Concord')",
       "creative_director": "Tinker Hatfield",
       "release_year": "1995",
       "retail_price": 125,
       "resell_price": 475,
-      "description": "The Air Jordan 11 was originally released by Nike in 1996. Like so many other classic Jordan models, it was designed by legendary Nike footwear designer Tinker Hatfield. The shoe's patent leather mudguard was inspired by the sleekness of dress shoes which, supposedly, was a special request from Michael Jordan. Jordan, ever the showman, wanted his next Air Jordan shoe with the glossy material because he wanted to wear an elegant shoe on the court. It's safe to say that “Tink” delivered."
+      "description": "The Air Jordan 11 was originally released by Nike in 1996. Like so many other classic Jordan models, it was designed by legendary Nike footwear designer Tinker Hatfield. The shoe's patent leather mudguard was inspired by the sleekness of dress shoes which, supposedly, was a special request from Michael Jordan. Jordan, ever the showman, wanted his next Air Jordan shoe with the glossy material because he wanted to wear an elegant shoe on the court. It's safe to say that “Tink” delivered.",
+      "comments": [
+        "AJ11s rock!",
+        "I love the Concorde colorway!"
+      ]
     },
     {
       "id": 9,
       "name": "Forum Hi",
       "menu_image": "https://2app.kicksonfire.com/kofapp/upload/events_master_images/ipad_adidas-forum-84-high-white-sail-black.jpeg",
       "display_image": "https://assets-global.website-files.com/64a86d230c3e07ee19a9191b/64a86d260c3e07ee19a9f634_Untitled%20design%20-%202023-01-09T180012.710.png",
+      "menu_gif": "https://cdna.artstation.com/p/assets/images/images/039/544/066/original/sergio-tachi-martin-ezgif-com-gif-maker.gif?1626210070",
       "brand": "Adidas",
       "og_colorway": "White/Collegiate Royal Blue",
       "creative_director": "Franz Saragga",
       "release_year": "1984",
       "retail_price": 100,
       "resell_price": 130,
-      "description": "An enduring icon, the Adidas Forum debuted in 1984 as a basketball sneaker and has since been spun into a street style legend, spawning multiple collaborations, colorways and variations over the years. It was also Adidas' first basketball shoe to be offered in low, mid, and hi-top models. Standing tall with a crisp leather upper, the trefoil logo on the shoe's tongue peers just above its unmistakable strap—making for a timeless look."
+      "description": "An enduring icon, the Adidas Forum debuted in 1984 as a basketball sneaker and has since been spun into a street style legend, spawning multiple collaborations, colorways and variations over the years. It was also Adidas' first basketball shoe to be offered in low, mid, and hi-top models. Standing tall with a crisp leather upper, the trefoil logo on the shoe's tongue peers just above its unmistakable strap—making for a timeless look.",
+      "comments": [
+        "Forum Hi's rock!",
+        "I love the white and blue colorway!"
+      ]
     },
     {
       "id": 10,
       "name": "Crazy 8",
       "menu_image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fed2d7dda45047eb8b3d84e3c0a99fc4_9366/Crazy_8_Shoes_Black_IF2448_01_standard.jpg",
       "display_image": "https://i.pinimg.com/736x/5a/93/d9/5a93d96ab76990d51893a7305f4624f2.jpg",
+      "menu_gif": "https://img.buzzfeed.com/buzzfeed-static/complex/images/KOBE_1100x735_kb1_rn5piu/None.gif?downsize=900:*&output-format=auto&output-quality=auto",
       "brand": "Adidas",
       "og_colorway": "Core Black/Cloud White/Collegiate Purple",
       "creative_director": "Peter Moore",
       "release_year": "1997",
       "retail_price": 100,
       "resell_price": 130,
-      "description": "In 1997, Bryant was given his first signature sneaker, the Adidas KB8, and immediately popularized the brand as a force in the footwear industry. Once Kobe Bryant left Adidas in 2002, the shoe was renamed 'Crazy 8' after its wild design and the player who donned it. The shoes were brought back in 2005 under the new name. In 2011, they came back once more in a number of original colorways that became very popular among NBA stars like Derrick Rose and Dwight Howard, along with a number of blue-blood university programs."
+      "description": "In 1997, Bryant was given his first signature sneaker, the Adidas KB8, and immediately popularized the brand as a force in the footwear industry. Once Kobe Bryant left Adidas in 2002, the shoe was renamed 'Crazy 8' after its wild design and the player who donned it. The shoes were brought back in 2005 under the new name. In 2011, they came back once more in a number of original colorways that became very popular among NBA stars like Derrick Rose and Dwight Howard, along with a number of blue-blood university programs.",
+      "comments": [
+        "Crazy 8s rock!",
+        "I love the OG colorway!"
+      ]
     },
     {
       "id": 11,
       "name": "Yeezy 700",
       "menu_image": "https://i.ebayimg.com/images/g/cSMAAOSwkBtkRJK8/s-l1200.webp",
       "display_image": "https://pbs.twimg.com/media/FMn4U_9X0AIRV5T?format=jpg&name=4096x4096",
+      "menu_gif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjdkM3pvbXVhNnN4MzdqcGFuaWQ1YzM2MTU2b2ZiYzA3ZnFwMTkxMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yvdes284dmNAJdXSRb/giphy.gif",
       "brand": "Adidas",
       "og_colorway": "Solid Grey/Chalk White/Core Black (aka 'Waverunner')",
       "creative_director": "Kanye West",
       "release_year": "2021",
       "retail_price": 300,
       "resell_price": 500,
-      "description": "The Adidas Yeezy Boost 700 debuted in the “Wave Runner” colorway during the Yeezy Season 5 fashion show in 2017. It featured reflective details, such as the three stripes of Adidas under a mesh overlay, reflective lace holders, and circles in the middle of the shoe and in the back. Apart from cementing Kanye West's influence within the fashion industry, the Yeezy 700 was one of the prime catalysts in popularizing “dad shoes”."
+      "description": "The Adidas Yeezy Boost 700 debuted in the “Wave Runner” colorway during the Yeezy Season 5 fashion show in 2017. It featured reflective details, such as the three stripes of Adidas under a mesh overlay, reflective lace holders, and circles in the middle of the shoe and in the back. Apart from cementing Kanye West's influence within the fashion industry, the Yeezy 700 was one of the prime catalysts in popularizing “dad shoes”.",
+      "comments": [
+        "Yeezy 700s rock!",
+        "I love the Waverunner colorway!"
+      ]
     },
     {
       "id": 12,
       "name": "Superstar",
       "menu_image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7ed0855435194229a525aad6009a0497_9366/Superstar_Shoes_White_EG4958_01_standard.jpg",
       "display_image": "http://oldposter.sneakerlab.net/wp-content/uploads/2015/04/adidas-superstar-tournament-adidas-look-at-the-feet-1973-20150410-1.png",
+      "menu_gif": "https://s3-us-west-2.amazonaws.com/media.brothers-brick.com/2021/06/LEGO-10282-Adidas-Originals-Superstar-4U0P7-18.gif",
       "brand": "Adidas",
       "og_colorway": "Cloud White/Core Black/Cloud White",
       "creative_director": "Chris Severn",
       "release_year": "1970",
       "retail_price": 30,
       "resell_price": 100,
-      "description": "A little less than 50 years ago, the Adidas Originals Superstar sneaker hit store shelves for the first time across the US. Since then, the silhouette has acted as a favorite on the courts and an impactful force within several subcultures, both in America and across the globe. Nicknamed the “shell tops”, “shell shoes” or “shell toes” due to its iconic rubber shell toe cap, the Superstar has been regarded as one of the main influences in the rise of modern day sneaker culture. Harking back to its very beginnings, Adidas first introduced the Superstars in 1969 as the ultimate on-court sneaker. They were designed to completely revolutionize and change the basketball footwear industry."
+      "description": "A little less than 50 years ago, the Adidas Originals Superstar sneaker hit store shelves for the first time across the US. Since then, the silhouette has acted as a favorite on the courts and an impactful force within several subcultures, both in America and across the globe. Nicknamed the “shell tops”, “shell shoes” or “shell toes” due to its iconic rubber shell toe cap, the Superstar has been regarded as one of the main influences in the rise of modern day sneaker culture. Harking back to its very beginnings, Adidas first introduced the Superstars in 1969 as the ultimate on-court sneaker. They were designed to completely revolutionize and change the basketball footwear industry.",
+      "comments": [
+        "Superstars rock!",
+        "I love the all white colorway!"
+      ]
     }
   ]
 }
