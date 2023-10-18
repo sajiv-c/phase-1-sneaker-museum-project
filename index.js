@@ -68,6 +68,7 @@ const commentForm = document.getElementById('comment-form');
 const commentInput = document.getElementById('user-comment');
 const commentElements = document.getElementById('comment-elements')
 commentForm.addEventListener('submit', (e) => {
+    
     e.preventDefault()
 
     const newCommentDiv = document.createElement('div');
@@ -139,3 +140,6 @@ const deleteBtns = document.querySelectorAll('.delete-comment');
 
 //     parentDiv.remove();
 // })
+const nikeBackground = 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnBzYmRpYXlpcDAxMTFzOXN3cmtzMnM3dWt4MWQ5czRubHM5ODZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9LZSXRm9wmkgWEiA5K/giphy.gif';
+const jordanBackground = 'https://media0.giphy.com/media/PQR24BJHzd5UiU1tjJ/giphy.gif?cid=ecf05e47cdniixyyp1zpx95mm1nr4u8qf9pa7lo6c5bohp8s&ep=v1_gifs_related&rid=giphy.gif&ct=s';
+const adidasBackground = 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWVyd2FoMjE3ODFnbmtsY29qamxxNjZyYXN3dW93OHJ4MGY3N2VvayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/dUfFgEhDnVx6PFpsje/giphy.gif';

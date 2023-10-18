@@ -10,9 +10,10 @@
     </head>
     <body>
         <div id="top">
-            <img class="logo" src="Images/Modern_Minimalist_Graffiti_Dream_Brand_Logo.png" alt="Sneaker Logo" />
+            <img class="logo" src="Images/output-onlinepngtools-4.png" alt="Sneaker Logo" />
         </div>
-        <hr />
+        <br>
+        <!-- <hr /> -->
         <nav id="sneaker-list">
             <!-- Add sneaker images as needed -->
         </nav>
@@ -56,23 +57,33 @@
         <div id="sneaker-comments">
             <div id="comments">
                 <h2>Comments</h2>
-                <div id="comment-elements">
-                    <div class="comment-1">
-                        <p>User Comment 1</p>
-                        <button class="delete-comment">Delete</button>
+                <div id="comments-grid">
+                    <div id="comment-form-div">
+                        <form id="comment-form">
+                            <label for="user-comment">Add a Comment</label>
+                            <input id="user-comment" type="text" placeholder="Your comment..." />
+                            <input type="submit" value="Add Comment"></button>
+                        </form>
                     </div>
-                    <div class="comment-2">
-                        <p>User Comment 2</p>
-                        <button class="delete-comment">Delete</button>
+                    <div id="comment-elements">
+                        <div class="comment-1">
+                            <p>User Comment 1</p>
+                            <button class="delete-comment">Delete</button>
+                        </div>
+                        <div class="comment-2">
+                            <p>User Comment 2</p>
+                            <button class="delete-comment">Delete</button>
+                        </div>
                     </div>
+                    <!-- Add more comments as needed -->
+                    <!-- <div id="comment-form-div">
+                        <form id="comment-form">
+                            <label for="user-comment">Add a Comment</label>
+                            <input id="user-comment" type="text" placeholder="Your comment..." />
+                            <input type="submit" value="Add Comment"></button>
+                        </form>
+                    </div> -->
                 </div>
-                <!-- Add more comments as needed -->
-    
-                <form id="comment-form">
-                    <label for="user-comment">Add a Comment</label>
-                    <input id="user-comment" type="text" placeholder="Your comment..." />
-                    <input type="submit" value="Add Comment"></button>
-                </form>
             </div>
         </div>
     </body>

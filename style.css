@@ -1,5 +1,8 @@
 body {
-    background-color: #2b2b2b;
+    background-color: rgb(43, 43, 43);
+    /* background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnBzYmRpYXlpcDAxMTFzOXN3cmtzMnM3dWt4MWQ5czRubHM5ODZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9LZSXRm9wmkgWEiA5K/giphy.gif'); */
+    background-size: 225px;
+    background-repeat: repeat;
     color: #fff;
     font-family: 'Bebas Neue', cursive;
 }
@@ -23,6 +26,7 @@ body {
 .logo {
     height: 300px;
     width: auto;
+    /* opacity: 0.9; */
     /* filter: drop-shadow(0 0 10px #ff4a6d); */
 }
 
@@ -172,6 +176,7 @@ nav img {
     max-width: 6%; */
     max-height: 80px;
     object-fit: contain;
+    border-radius: 10px;
 }
 
 /* #detail-image {
@@ -243,5 +248,12 @@ nav img {
 #top {
     background-image: url('https://www.wallpaperkiss.com/wimg/b/145-1454163_big.jpg');
     background-blend-mode: darken;
-    background-color: rgba(43,43,43,0.3);
+    background-color: rgba(43,43,43,0.65);
+    border: 2px solid #ffecb8;
+    border-radius: 15px;
+    /* filter: drop-shadow(0 0 1em #ff4a6d); */
+}
+#comments-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
