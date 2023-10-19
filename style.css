@@ -63,11 +63,11 @@ body {
 
 #sneaker-display-categories > div {
     width: 60%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 #sneaker-comments > div {
-    width: 70%;
+    width: 82.5%;
     margin-left: 20px;
 }
 
@@ -95,7 +95,7 @@ body {
 }
 
 #comments {
-    margin-top: 20px;
+    margin-top: -25px;
     padding: 20px;
     /* background: #444; */
     border-radius: 10px;
@@ -255,8 +255,8 @@ nav img {
 }
 #comments-grid {
     display: grid;
-    grid-template-columns: 35% 65%;
-    column-gap: 10%;
+    grid-template-columns: 30% 65%;
+    column-gap: 5%;
 }
 
 #comments h2 {
