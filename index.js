@@ -1,4 +1,10 @@
+const nikeBackground = 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnBzYmRpYXlpcDAxMTFzOXN3cmtzMnM3dWt4MWQ5czRubHM5ODZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9LZSXRm9wmkgWEiA5K/giphy.gif';
+const jordanBackground = 'https://media0.giphy.com/media/PQR24BJHzd5UiU1tjJ/giphy.gif?cid=ecf05e47cdniixyyp1zpx95mm1nr4u8qf9pa7lo6c5bohp8s&ep=v1_gifs_related&rid=giphy.gif&ct=s';
+const adidasBackground = 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWVyd2FoMjE3ODFnbmtsY29qamxxNjZyYXN3dW93OHJ4MGY3N2VvayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/dUfFgEhDnVx6PFpsje/giphy.gif';
+
 let sneakers = null;
+
+const detailsDiv = document.getElementById('details');
 
 fetch("http://localhost:3000/sneakers")
 .then(res => res.json())
@@ -7,14 +13,36 @@ fetch("http://localhost:3000/sneakers")
     shoes.forEach(shoe => {
         addToList(shoe);
     })
-    addToDisplay(shoes[1]);
-    document.querySelector('.comment-1 p').textContent = shoes[1].comments[0];
-    document.querySelector('.comment-2 p').textContent = shoes[1].comments[1];
-    const detailsDiv = document.getElementById('details');
-    detailsDiv.style.backgroundImage = `url(${nikeBackground})`;
-    detailsDiv.style.backgroundSize = '20%';
-    detailsDiv.style.backgroundBlendMode = 'overlay';
+    document.querySelector('.comment-1 p').textContent = shoes[0].comments[0];
+    document.querySelector('.comment-2 p').textContent = shoes[0].comments[1];
+    // detailsDiv.style.backgroundImage = `url(${jordanBackground})`;
+    // detailsDiv.style.backgroundSize = '20%';
+    // detailsDiv.style.backgroundBlendMode = 'overlay';
+    addToDisplay(shoes[0]);
+    setBackgroundStyling(shoes[0])
 })
+
+function setBackgroundStyling(shoe) {
+    if (shoe.brand == 'Nike') {
+        detailsDiv.style.backgroundImage = `url(${nikeBackground})`;
+        detailsDiv.style.backgroundSize = '20%'
+        detailsDiv.style.backgroundColor = 'rgb(43,43,43)'
+        detailsDiv.style.backgroundBlendMode = 'overlay'
+
+    }
+    if (shoe.brand == 'Air Jordan') {
+        detailsDiv.style.backgroundImage = `url(${jordanBackground})`;
+        detailsDiv.style.backgroundSize = '34%'
+        detailsDiv.style.backgroundColor = 'rgb(43,43,43)'
+        detailsDiv.style.backgroundBlendMode = 'overlay'
+    }
+    if (shoe.brand == 'Adidas') {
+        detailsDiv.style.backgroundImage = `url(${adidasBackground})`;
+        detailsDiv.style.backgroundSize = '20%'
+        detailsDiv.style.backgroundColor = 'rgb(43,43,43)'
+        detailsDiv.style.backgroundBlendMode = 'multiply'
+    }
+}
 
 function addToList(shoe) {
     const newShoe = document.createElement('img');
@@ -22,7 +50,7 @@ function addToList(shoe) {
     const shoeMenu = document.getElementById('sneaker-list');
     shoeMenu.appendChild(newShoe);
     
-    const displayCategories = document.getElementById('details');
+    // const displayCategories = document.getElementById('details');
 
 
     newShoe.addEventListener('click', () => {
@@ -30,25 +58,9 @@ function addToList(shoe) {
 
         document.querySelector('.comment-1 p').textContent = shoe.comments[0];
         document.querySelector('.comment-2 p').textContent = shoe.comments[1];
-        if (shoe.brand == 'Nike') {
-            displayCategories.style.backgroundImage = `url(${nikeBackground})`;
-            displayCategories.style.backgroundSize = '20%'
-            displayCategories.style.backgroundColor = 'rgb(43,43,43)'
-            displayCategories.style.backgroundBlendMode = 'overlay'
 
-        }
-        if (shoe.brand == 'Air Jordan') {
-            displayCategories.style.backgroundImage = `url(${jordanBackground})`;
-            displayCategories.style.backgroundSize = '34%'
-            displayCategories.style.backgroundColor = 'rgb(43,43,43)'
-            displayCategories.style.backgroundBlendMode = 'overlay'
-        }
-        if (shoe.brand == 'Adidas') {
-            displayCategories.style.backgroundImage = `url(${adidasBackground})`;
-            displayCategories.style.backgroundSize = '20%'
-            displayCategories.style.backgroundColor = 'rgb(43,43,43)'
-            displayCategories.style.backgroundBlendMode = 'multiply'
-        }
+        // Set background styling on click
+        setBackgroundStyling(shoe)
     })
 
     newShoe.addEventListener('mouseover', () => {
@@ -139,10 +151,6 @@ const deleteBtns = document.querySelectorAll('.delete-comment');
             parentDiv.remove();
     })
 })
-
-const nikeBackground = 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnBzYmRpYXlpcDAxMTFzOXN3cmtzMnM3dWt4MWQ5czRubHM5ODZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9LZSXRm9wmkgWEiA5K/giphy.gif';
-const jordanBackground = 'https://media0.giphy.com/media/PQR24BJHzd5UiU1tjJ/giphy.gif?cid=ecf05e47cdniixyyp1zpx95mm1nr4u8qf9pa7lo6c5bohp8s&ep=v1_gifs_related&rid=giphy.gif&ct=s';
-const adidasBackground = 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWVyd2FoMjE3ODFnbmtsY29qamxxNjZyYXN3dW93OHJ4MGY3N2VvayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/dUfFgEhDnVx6PFpsje/giphy.gif';
 
 // const dropdown = document.getElementById('dropdown');
 // const sneakerMenu = document.getElementById('sneaker-list');
