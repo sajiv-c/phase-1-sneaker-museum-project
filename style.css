@@ -33,7 +33,7 @@ body {
 #sneaker-list {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 0.8vw;
 }
 
 #sneaker-list a {
@@ -55,8 +55,8 @@ body {
     border: 2px solid #ffecb8;
     border-radius: 10px;
     /* max-width: 600px; */
-    height: 600px;
-    width: 600px;
+    height: 650px;
+    width: auto;
     object-fit: cover;
     margin-left: 50px;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 #sneaker-comments > div {
-    width: 60%;
+    width: 70%;
     margin-left: 20px;
 }
 
@@ -97,7 +97,7 @@ body {
 #comments {
     margin-top: 20px;
     padding: 20px;
-    background: #444;
+    /* background: #444; */
     border-radius: 10px;
 }
 
@@ -114,8 +114,8 @@ body {
 }
 
 form {
-    width: 200px;
-    margin-top: 20px;
+    width: 250px;
+    margin-top: 15%;
 }
 
 button {
@@ -249,11 +249,49 @@ nav img {
     background-image: url('https://www.wallpaperkiss.com/wimg/b/145-1454163_big.jpg');
     background-blend-mode: darken;
     background-color: rgba(43,43,43,0.65);
-    border: 2px solid #ffecb8;
-    border-radius: 15px;
+    /* border: 2px solid #ffecb8; */
+    /* border-radius: 15px; */
     /* filter: drop-shadow(0 0 1em #ff4a6d); */
 }
 #comments-grid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 35% 65%;
+    column-gap: 10%;
+}
+
+#comments h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#comment-form-div {
+    background: #444;
+    height: 293px;
+    text-align: -webkit-center;
+    border-radius: 10px;
+}
+
+#comment-elements {
+    /* background: #444; */
+    text-align: center;
+}
+
+#comment-form label {
+    font-size: x-large;
+}
+
+#comment-elements p {
+    font-size: x-large;
+}
+
+#comment-elements button {
+    font-size: large;
+}
+
+#detail-categories {
+    font-size: larger;
+}
+
+#detail-inputs {
+    font-size: larger;
 }
