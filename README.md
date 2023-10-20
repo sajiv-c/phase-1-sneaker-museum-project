@@ -1,5 +1,5 @@
-# Phase 1 Project
-SNEAKER MUSEUM:
+# Phase 1 Project: The Sneaker Museum
+THE SNEAKER MUSEUM:
 
 - This is a simple web application that allows users to browse through and interact with a collection of sneakers. The application is built using JavaScript and makes use of the Fetch API to retrieve sneaker data from a local server running at http://localhost:3000/sneakers.
 
