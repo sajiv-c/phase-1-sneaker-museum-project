@@ -55,10 +55,16 @@ function addToList(shoe) {
     const shoeMenu = document.getElementById('sneaker-list');
     shoeMenu.appendChild(newShoe);
 
-    // ---- adds sneaker details to display, sets default comments, and sets background gif on image click ----
+    // ---- adds sneaker details to display, deletes existing comments, sets default comments, and sets background gif on image click ----
     newShoe.addEventListener('click', () => {
         addToDisplay(shoe);
 
+        const commentBoxes = document.querySelectorAll('#comment-elements div');
+        commentBoxes.forEach(comment => {
+            if((comment.className !== 'comment-1') && (comment.className !== 'comment-2')) {
+                comment.remove();
+            }
+        })
         document.querySelector('.comment-1 p').textContent = shoe.comments[0];
         document.querySelector('.comment-2 p').textContent = shoe.comments[1];
 
