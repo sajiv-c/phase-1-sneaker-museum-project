@@ -1,6 +1,5 @@
 body {
     background-color: rgb(43, 43, 43);
-    /* background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnBzYmRpYXlpcDAxMTFzOXN3cmtzMnM3dWt4MWQ5czRubHM5ODZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9LZSXRm9wmkgWEiA5K/giphy.gif'); */
     background-size: 225px;
     background-repeat: repeat;
     color: #fff;
@@ -26,8 +25,6 @@ body {
 .logo {
     height: 300px;
     width: auto;
-    /* opacity: 0.9; */
-    /* filter: drop-shadow(0 0 10px #ff4a6d); */
 }
 
 #sneaker-list {
@@ -49,12 +46,10 @@ body {
 }
 
 #detail-image {
-    /* height: auto; */
     margin: 7px;
     filter: drop-shadow(0 0 1em #ff4a6d);
     border: 2px solid #ffecb8;
     border-radius: 10px;
-    /* max-width: 600px; */
     height: 650px;
     width: auto;
     object-fit: cover;
@@ -63,7 +58,6 @@ body {
 
 #sneaker-display-categories > div {
     width: 60%;
-    /* margin-left: 20px; */
 }
 
 #sneaker-comments > div {
@@ -76,7 +70,6 @@ body {
     font-size: 18px;
     line-height: 1.4;
     text-align: justify;
-    /*padding-left: 120px;*/
     padding-right: 100px;
 }
 
@@ -97,7 +90,6 @@ body {
 #comments {
     margin-top: -25px;
     padding: 20px;
-    /* background: #444; */
     border-radius: 10px;
 }
 
@@ -172,28 +164,15 @@ input[type="submit"]:hover {
 }
 
 nav img {
-    /* height: auto;
-    max-width: 6%; */
     max-height: 80px;
     object-fit: contain;
     border-radius: 10px;
 }
 
-/* #detail-image {
-    max-width: 600px;
-    height: auto;
-    padding-left: 80px;
-} */
-
 #details {
     text-align: left;
     padding-left: 80px;
 }
-
-/* .logo {
-    height: 300px;
-    width: auto;
-} */
 
 #top {
     display: flex;
@@ -213,7 +192,7 @@ nav img {
 
 #detail-grid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 20% 80%;
 }
 
 .inputs {
@@ -249,10 +228,8 @@ nav img {
     background-image: url('https://www.wallpaperkiss.com/wimg/b/145-1454163_big.jpg');
     background-blend-mode: darken;
     background-color: rgba(43,43,43,0.65);
-    /* border: 2px solid #ffecb8; */
-    /* border-radius: 15px; */
-    /* filter: drop-shadow(0 0 1em #ff4a6d); */
 }
+
 #comments-grid {
     display: grid;
     grid-template-columns: 30% 65%;
@@ -272,8 +249,11 @@ nav img {
 }
 
 #comment-elements {
-    /* background: #444; */
     text-align: center;
+}
+
+#comment-form {
+    padding-top: 2vh;
 }
 
 #comment-form label {
@@ -294,4 +274,8 @@ nav img {
 
 #detail-inputs {
     font-size: larger;
+}
+
+#submit-button {
+    font-size: large;
 }
